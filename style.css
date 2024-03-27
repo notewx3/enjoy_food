@@ -4,7 +4,7 @@
     color: #ffffff;
 }
 header {
-    background-color: #757e9b;
+    background-color: #23174da1;
     height: 80px;
     width: 66%;
     position: absolute;
@@ -57,6 +57,7 @@ h1 {
 .btn,
 .btn:focus {
     position: relative;
+    /*相對*/
     min-width: 200px;
     background: transparent;
     color: #8952c7;
@@ -73,6 +74,7 @@ h1 {
     outline-offset: 0px;
     text-shadow: none;
     transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+    border-radius: 10px;
 }
 .btn:hover {
     color: #8952c7;
@@ -87,3 +89,35 @@ h1 {
 .cut {
     height: 40px;
 }
+
+.icon_01 {
+    list-style: square;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.block02 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5px 30px;
+}
+
+.icon_01 div {
+    margin: 0 10px;
+}
+
+.icon_01 img {
+    width: 100%;
+    
+}
+
+.icon_02 {
+    margin: 5px 30px;
+    position: relative;
+    right: 6vw;
+}
+
+
